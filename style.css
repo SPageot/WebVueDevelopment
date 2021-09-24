@@ -1,0 +1,180 @@
+/*resetting default style*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+/*Navigation size*/
+.nav {
+  height: 10vh;
+  background: rgb(45, 70, 185);
+  box-shadow: 0px 0px 1rem black;
+  width: 100%;
+  margin-bottom: 2rem;
+ 
+}
+
+/*Navigation container*/
+.nav-list-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+/*Navigation List Items*/
+.nav-list-items li {
+  list-style-type: none;
+}
+
+/*Navigation List Item Links*/
+.nav-list-items li a {
+  text-decoration: none;
+  color: white;
+  padding: 15%;
+  transition: all 1s;
+}
+
+
+
+.nav-list-items li a:hover {
+    padding: 10%;
+    border-bottom: 1px dotted white;
+    
+  }
+
+  @media only screen and (max-height:1000px) {
+    .nav {
+      min-height: 100px;
+    }
+
+  }
+  
+
+.container {
+  height: 100vh;
+  width: 100vw !important;
+  padding:0% !important;
+}
+
+#myCarousel {
+    height:100vh;
+   
+}
+
+.container .carousel {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+ .image1 {
+  height: 100%;
+  position: relative;
+} 
+
+ .image1 img {
+  width: 100%;
+  height:100% !important;
+}
+
+.black-background {
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.brand-intro {
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    bottom:10%;
+    left:5%;
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    
+}
+
+.about-section{
+  border: 1px solid black;
+  background-color: #2D46B9;
+  height:50vh;
+  position: relative;
+}
+
+.about{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  max-width:50%;
+  text-align: center;
+  font-size: 3rem;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+
+
+.languages .flex {
+  
+  flex-wrap: wrap;
+  flex-direction: column;
+  height:70%;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 100px; 
+  transition: transform 0.5s ease-in-out;
+}
+
+.languages .node{
+  background-image: linear-gradient(to right, green ,white, lightgreen);
+}
+
+.languages .python{
+  background-image: linear-gradient(to right, blue ,white, yellow);
+}
+
+.languages .csharp{
+  background-image: linear-gradient(to right, #551a8b ,white, #551a8b);
+}
+
+.languages .card h4 {
+  font-size: 20px;
+}
+
+.languages .card:hover {
+  transform: translateY(-20px);
+}
+
+footer{
+  box-shadow: 0px 0px 1rem black ;
+  height:15vh;
+  text-align: center;
+  background-color: #2D46B9;
+  position: relative;
+  margin-top: 5%;
+}
+
+footer h4{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+}
+

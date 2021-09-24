@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav-list-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="./Pages/Testimonial/testimonial.html">Testimonial</a></li>
+            <li><a href="./Pages/ContactUs/project.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active image1">
+              <img src="./images/Webvue.jfif" alt="Webvue Development">
+              <div class="black-background"></div>
+              <h1 class="brand-intro" id="brand-intro">Welcome to WebVue Web Development</h1>
+            </div>
+      
+            <div class="item image1">
+              <img src="./images/background images.jfif" alt="Team Environment">
+              <div class="black-background"></div>
+              <h2 class="brand-intro">Website Development and Deployment for small to mid-size businesses</h2>
+            </div>
+          
+            <div class="item image1">
+              <img src="./images/clients.jfif" alt="Happy Clients">
+              <div class="black-background"></div>
+                <h2 class="brand-intro">Focusing on innovating and development of new ideas</h2>
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="about-section">
+      <p class="about">Transform your stunning ideas to reach more audiences<br><br>
+        WebVue was created by five web developers in 2006 who 
+        wanted to help people bring their ideas to life through
+        websites. Today, 255 interactive websites have been created.
+        WebVue is happy to help you succeed. Contact us for any questions.</p>
+      </div>
+      <section class="languages">
+        <div class= "container flex">
+        <h2 class="md text-center my-2">
+            Supported Languages
+        </h2>
+        </div>
+        <div class="container flex">
+            <div class="card node">
+                <h4>Node.js</h4>
+                <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="">
+            </div>
+            </div>
+            <div class= "container flex">
+            <div class="card python">
+                <h4>Python</h4>
+                <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="">
+              </div>
+            </div>
+              <div class="card csharp">
+                <div class= "container flex">
+                <h4>C#</h4>
+                <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="">
+              </div>
+              </div>
+        </section>
+
+            <footer>
+               <h4><span>&copy;</span>WebVue Website Development 2021</h4>
+            </footer>
+           
+</body>
+</html>
